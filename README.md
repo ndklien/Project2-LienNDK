@@ -23,8 +23,7 @@
 	- Udacity-LienNDK.db   # database to save clean data to
 
 - models
-	- train_classifier.py
-    - classifier.pkl  # saved model 
+	- train_classifier.py 
 - README.md
 
 ### Instructions:
