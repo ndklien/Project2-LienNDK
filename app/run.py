@@ -55,7 +55,25 @@ def index():
             ],
 
             'layout': {
-                'title': 'The popularity of Message Genres',
+                'title': 'Distribution of Message Genres',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Genre"
+                }
+            }
+        },
+        {
+            'data': [
+                Bar(
+                    x=categories_names,
+                    y=categories_positive
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Category Genres',
                 'yaxis': {
                     'title': "Count"
                 },
